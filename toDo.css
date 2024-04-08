@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Segoe UI';
+}
+
+#todo{
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 16px;
+}
+
+#todo #todo_form form{
+
+   display: flex;
+}
+
+#todo #todo_form form input{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #777;
+    border-radius: 4px 0px 0px 4px;
+}
+#todo #todo_form form button{
+    background: #0da90d;
+    color: #fff;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+ #todo #todo_items{
+    margin: 16px 0px;
+ }
+ #todo #todo_items .todo_items-item label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 8px 0px;
+    width: 100%;
+ }
+ #todo #todo_items .todo_items-item label span{
+    font-size: 18px;
+ }
+ #todo #todo_items .todo_items-item label input {
+    cursor: pointer;
+ }
+ #todo #todo_items .todo_items-item .remove{
+    padding: 2px 16px;
+    background: #d00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+ }
+
+ #todo #todo_footer{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #todo #todo_footer #todo_footer-right button{
+    padding: 4px 16px;
+    background: #c00;
+    color:#fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    ;
+ }
